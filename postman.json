@@ -1,0 +1,324 @@
+{
+	"info": {
+		"name": "Weblib Test back",
+		"_postman_id": "80433995-2300-fcdf-7051-0d2af13c6d17",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Library",
+			"description": "",
+			"item": [
+				{
+					"name": "http://localhost:8000/libraries",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJuaWNvbGFzLnNlcnZhbnRAbWF0dGVycy50ZWNoIiwicGFzc3dvcmQiOiIkMmEkMTAkazBYcC54V1Rnd3ZQT0YvVjExTURJT21tY0lBR1ptOU1sdHZDL0M1dDJoQWo3NndvQjV0ZHUiLCJmaXJzdG5hbWUiOiJuaWNvbGFzIiwibGFzdG5hbWUiOiJzZXJ2YW50Iiwicm9sZSI6InVzZXIiLCJjcmVhdGVkQXQiOiIyMDE4LTAyLTE5VDIzOjA4OjEzLjAwMFoiLCJ1cGRhdGVkQXQiOm51bGwsImlhdCI6MTUyMDc2OTg1OX0.gP3xnRsRBdCj7sGbKO46g2Kpt4cwVlj4W92iUC-dANk"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:8000/libraries/:id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"libraries",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/libraries/:id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJuaWNvbGFzLnNlcnZhbnRAbWF0dGVycy50ZWNoIiwicGFzc3dvcmQiOiIkMmEkMTAkazBYcC54V1Rnd3ZQT0YvVjExTURJT21tY0lBR1ptOU1sdHZDL0M1dDJoQWo3NndvQjV0ZHUiLCJmaXJzdG5hbWUiOiJuaWNvbGFzIiwibGFzdG5hbWUiOiJzZXJ2YW50Iiwicm9sZSI6InVzZXIiLCJjcmVhdGVkQXQiOiIyMDE4LTAyLTE5VDIzOjA4OjEzLjAwMFoiLCJ1cGRhdGVkQXQiOm51bGwsImlhdCI6MTUyMDc2OTg1OX0.gP3xnRsRBdCj7sGbKO46g2Kpt4cwVlj4W92iUC-dANk"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:8000/libraries/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"libraries",
+								"3"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/libraries/:id",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJuaWNvbGFzLnNlcnZhbnRAbWF0dGVycy50ZWNoIiwicGFzc3dvcmQiOiIkMmEkMTAkazBYcC54V1Rnd3ZQT0YvVjExTURJT21tY0lBR1ptOU1sdHZDL0M1dDJoQWo3NndvQjV0ZHUiLCJmaXJzdG5hbWUiOiJuaWNvbGFzIiwibGFzdG5hbWUiOiJzZXJ2YW50Iiwicm9sZSI6InVzZXIiLCJjcmVhdGVkQXQiOiIyMDE4LTAyLTE5VDIzOjA4OjEzLjAwMFoiLCJ1cGRhdGVkQXQiOm51bGwsImlhdCI6MTUyMDc2OTg1OX0.gP3xnRsRBdCj7sGbKO46g2Kpt4cwVlj4W92iUC-dANk"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:8000/libraries/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"libraries",
+								"3"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/libraries/:id",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJuaWNvbGFzLnNlcnZhbnRAbWF0dGVycy50ZWNoIiwicGFzc3dvcmQiOiIkMmEkMTAkazBYcC54V1Rnd3ZQT0YvVjExTURJT21tY0lBR1ptOU1sdHZDL0M1dDJoQWo3NndvQjV0ZHUiLCJmaXJzdG5hbWUiOiJuaWNvbGFzIiwibGFzdG5hbWUiOiJzZXJ2YW50Iiwicm9sZSI6InVzZXIiLCJjcmVhdGVkQXQiOiIyMDE4LTAyLTE5VDIzOjA4OjEzLjAwMFoiLCJ1cGRhdGVkQXQiOm51bGwsImlhdCI6MTUyMDc2OTg1OX0.gP3xnRsRBdCj7sGbKO46g2Kpt4cwVlj4W92iUC-dANk"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"lib\",\n    \"address\": \"1 rue de paris\",\n    \"city\": \"Paris\",\n    \"zipcode\": \"Paris\",\n    \"country\": \"France\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/libraries/:id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"libraries",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/libraries",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJuaWNvbGFzLnNlcnZhbnRAbWF0dGVycy50ZWNoIiwicGFzc3dvcmQiOiIkMmEkMTAkazBYcC54V1Rnd3ZQT0YvVjExTURJT21tY0lBR1ptOU1sdHZDL0M1dDJoQWo3NndvQjV0ZHUiLCJmaXJzdG5hbWUiOiJuaWNvbGFzIiwibGFzdG5hbWUiOiJzZXJ2YW50Iiwicm9sZSI6InVzZXIiLCJjcmVhdGVkQXQiOiIyMDE4LTAyLTE5VDIzOjA4OjEzLjAwMFoiLCJ1cGRhdGVkQXQiOm51bGwsImlhdCI6MTUyMDc2OTg1OX0.gP3xnRsRBdCj7sGbKO46g2Kpt4cwVlj4W92iUC-dANk"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"lib\",\n\t\"address\": \"1 rue de paris\",\n\t\"city\": \"Paris\",\n\t\"zipcode\": \"75010\",\n\t\"country\": \"France\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/libraries",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"libraries"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Book",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "User",
+			"description": "",
+			"item": [
+				{
+					"name": "http://localhost:8000/users",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"nicolas.servant@matters.tech\",\n\t\"password\": \"Password75\",\n\t\"firstname\": \"nicolas\",\n\t\"lastname\": \"servant\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"users"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/users",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"nicolas.servant@matters.tech\",\n\t\"password\": \"Password75\",\n\t\"firstname\": \"nicolas\",\n\t\"lastname\": \"servant\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/users/:id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"users",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/users",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"nicolas.servant@matters.tech\",\n\t\"password\": \"Password75\",\n\t\"firstname\": \"nicolas\",\n\t\"lastname\": \"servant\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/users/:id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"users",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/users",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"nicolas.servant@matters.tech\",\n\t\"password\": \"Password75\",\n\t\"firstname\": \"nicolas\",\n\t\"lastname\": \"servant\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/users/:id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"users",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
