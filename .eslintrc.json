@@ -1,0 +1,9 @@
+{
+    "extends": ["airbnb-base", "plugin:node/recommended", "prettier"],
+    "plugins": ["node", "prettier"],
+    "rules": {
+        "node/exports-style": ["error", "module.exports"],
+        "prettier/prettier": "error",
+        "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+    }
+}

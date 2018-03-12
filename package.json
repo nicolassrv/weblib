@@ -1,0 +1,45 @@
+{
+  "name": "weblib",
+  "version": "1.0.0",
+  "description": "Test technique",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120,
+    "tabWidth": 4
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "express-acl": "^1.0.4",
+    "express-joi-validator": "^2.0.0",
+    "joi": "^13.1.2",
+    "jsonwebtoken": "^8.1.1",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.33.4",
+    "swagger-ui-express": "^2.0.15"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-node": "^5.2.0",
+    "prettier": "^1.10.2"
+  }
+}
