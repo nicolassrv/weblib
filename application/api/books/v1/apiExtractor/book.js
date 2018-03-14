@@ -3,6 +3,7 @@
  * @param {Book Entity} book
  */
 module.exports = book => ({
+    id: book.id,
     name: book.name,
     author: book.author,
     library_id: book.library_id,
