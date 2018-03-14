@@ -24,6 +24,10 @@ module.exports = sequelize => {
                 allowNull: false,
                 field: 'author'
             },
+            libraryId: {
+                type: Sequelize.INTEGER,
+                field: 'library_id'
+            },
             createdAt: {
                 type: Sequelize.DATE,
                 allowNull: false,

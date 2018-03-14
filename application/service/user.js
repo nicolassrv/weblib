@@ -11,7 +11,7 @@ class User extends AbstractCrudService {
      * @returns User entity
      */
     findOneByEmail(email) {
-        return this.userModel.findOne({
+        return this.model.findOne({
             where: {
                 email
             }

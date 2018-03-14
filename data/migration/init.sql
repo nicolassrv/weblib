@@ -31,7 +31,5 @@ CREATE TABLE IF NOT EXISTS `book` (
     `author` varchar(255) DEFAULT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP NULL,
-    CONSTRAINT `book_fk_1` FOREIGN KEY (`library_id`) REFERENCES `library` (`id`) ON DELETE CASCADE
+    FOREIGN KEY (`library_id`) REFERENCES `library` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-INSERT INTO user VALUES('', 'nicolas.servant@matters.tech', 'Password75', 'nicolas', 'servant', 'user', NOW(), '');

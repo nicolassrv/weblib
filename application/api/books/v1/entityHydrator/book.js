@@ -5,5 +5,5 @@
 module.exports = bookData => ({
     name: bookData.name,
     author: bookData.author,
-    library_id: bookData.library_id
+    libraryId: bookData.library_id
 });
